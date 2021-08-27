@@ -1204,6 +1204,32 @@ dl, ol, ul {
 }
 /* ############## media query for Tablet ############## */
 
+/* *********************** media for very small phone  ************************ */
+@media(max-width:575px){
+    .navbar .container .box img {
+        width: 162px;
+    }
+    .navbar .container .box {
+    margin-left: -21px;
+    width: 10%;
+    }
+    #carouselExampleIndicators img {
+        height: 80vh;
+    }
+    .hero .carousel-inner .carousel-caption {
+        display: flex;
+        align-items: center;
+        text-align: start;
+        transform: translateY(35%);
+    }
+    .navbar .container .box_m {
+        margin-right: -20px;
+    }
+    .companies img {
+        width: 160px;
+    }
+}
+
 /*############## start media for desktop ##############*/
 @media only screen and (min-width: 1200px) {
     .active_bar{
